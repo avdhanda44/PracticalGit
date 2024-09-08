@@ -1,0 +1,38 @@
+GitHub Command 
+
+
+•	“pwd”: Present Working Directory
+•	“cd”: Change Directory
+•	“cd ..”  : To navigate to the parent directory
+•	“cd ../../”: To go up multiple levels in the directory structure
+•	“ls”: To see a list of folders and files in the current directory.
+•	“ls -l”: If you want to see the detailed information for each folder and file (including permissions, size, and modification date)
+•	“ls -a”: If you want to see hidden files and folders (those that start with a dot)
+•	“ls -la” : You can combine flags to achieve different results
+•	“cd /path/to/my_repo”: Navigate to the root directory of your repository e.g., if your repository is located in a folder called "my_repo,”
+•	“git rm -r *”: To remove all files and folders (except for hidden files/directories)
+•	“git rm -r .*”: If there are any hidden files or directories (those starting with a dot)
+•	“git stash”: Temporarily shelves changes that are not ready to be committed, allowing you to work on another task.
+•	“git init”: Initializes a new Git repository in the current directory.
+•	“git clone <repository URL>”: Clones a repository from a remote server to your local machine.
+•	“git cat > file_name”: Creates a new file
+•	“git vim file_name”: Opens the window to edit the File
+•	“git diff”: Shows the diff in online git repository and local file before it is staged.
+•	“git diff --cached”: Shows the diff in online git repository and local repository even if the file is stagged.
+•	“git status”: Shows the current status of your working directory, including changes to tracked files, untracked files, and the branch you're on.
+•	“git add <file>” or “git add.”: Adds changes in the specified file or all files in the current directory to the staging area to be included in the next commit.
+•	“git reset”: Remove the file from stagging
+•	“git reset --hard”: Remove the file from stagging and remove all the changes from the local repository 
+•	“git commit -m "Commit message””: Records changes staged in the index and creates a new commit with a message describing the changes.
+•	“git show <commit>”: Shows information about a specific commit, including changes and metadata.
+•	“git log”: Displays a history of commits in the current branch
+•	“git log --oneline”: Displays a simplified version of the commit history, showing only the commit hash and message.
+•	“git push”: Pushes commits from your local repository to a remote repository.
+•	“git push --set-upstream origin New_Branch_name”
+•	“git pull”: Fetches changes from a remote repository and merges them into the current branch in your local repository.
+•	“git branch”: Lists all branches in the current repository.
+•	“git branch -d <branch_name>”: Deletes the specified branch from your local repository.
+•	“git checkout <branch>”: Switches to the specified branch.
+•	“git merge <branch>”: Merges changes from the specified branch into the current branch.
+•	“git remote -v”: Lists the names and URLs of the remote repositories associated with your local repository.
+•	“git fetch”: Downloads objects and refs from another repository.
