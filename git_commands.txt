@@ -20,19 +20,26 @@ GitHub Command
 •	“git diff”: Shows the diff in online git repository and local file before it is staged.
 •	“git diff --cached”: Shows the diff in online git repository and local repository even if the file is stagged.
 •	“git status”: Shows the current status of your working directory, including changes to tracked files, untracked files, and the branch you're on.
-•	“git add <file>” or “git add.”: Adds changes in the specified file or all files in the current directory to the staging area to be included in the next commit.
+•	“git add file_name” or “git add.”: Adds changes in the specified file or all files in the current directory to the staging area to be included in the next commit.
 •	“git reset”: Remove the file from stagging
 •	“git reset --hard”: Remove the file from stagging and remove all the changes from the local repository 
 •	“git commit -m "Commit message””: Records changes staged in the index and creates a new commit with a message describing the changes.
-•	“git show <commit>”: Shows information about a specific commit, including changes and metadata.
+•	“git show commit”: Shows information about a specific commit, including changes and metadata.
 •	“git log”: Displays a history of commits in the current branch
 •	“git log --oneline”: Displays a simplified version of the commit history, showing only the commit hash and message.
 •	“git push”: Pushes commits from your local repository to a remote repository.
 •	“git push --set-upstream origin New_Branch_name”
+•	“git fetch”: Downloads objects and compare with local repository.
 •	“git pull”: Fetches changes from a remote repository and merges them into the current branch in your local repository.
+•	“git branch new_branch_name”: Creates a new branch.
+•	“git switch branch_name”: Switch from one branch to another
 •	“git branch”: Lists all branches in the current repository.
-•	“git branch -d <branch_name>”: Deletes the specified branch from your local repository.
-•	“git checkout <branch>”: Switches to the specified branch.
-•	“git merge <branch>”: Merges changes from the specified branch into the current branch.
+•	“git branch -r”: Lists all remote branches in the current repository
+•	“git branch -d branch_name”: Deletes the specified branch from your local repository.
+•	“git checkout -b branch_name”: Check if branch exists if does not then make new branch and switches to it.
+•	“git checkout branch_name”: Switches to the specified branch.
+•	“git checkout HEAD file_name” or “git checkout HEAD .”: Reset the changes in the specified file or all files in the current directory.
+•	“git merge branch”: Merges changes from the specified branch into the current branch.
 •	“git remote -v”: Lists the names and URLs of the remote repositories associated with your local repository.
-•	“git fetch”: Downloads objects and refs from another repository.
+
+
