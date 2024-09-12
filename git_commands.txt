@@ -1,6 +1,5 @@
 GitHub Command 
 
-
 •	“pwd”: Present Working Directory
 •	“cd”: Change Directory
 •	“cd ..”  : To navigate to the parent directory
@@ -41,5 +40,3 @@ GitHub Command
 •	“git checkout HEAD file_name” or “git checkout HEAD .”: Reset the changes in the specified file or all files in the current directory.
 •	“git merge branch”: Merges changes from the specified branch into the current branch.
 •	“git remote -v”: Lists the names and URLs of the remote repositories associated with your local repository.
-
-
